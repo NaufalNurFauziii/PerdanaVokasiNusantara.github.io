@@ -412,6 +412,25 @@ display:none;
 .team_h1im1:hover .team_h1im1i1{
 display:block; 
  }
+/* mitra */
+#serv_mitra .serv_h2i img {
+  max-height: 130px; 
+  max-width: 180px;
+}
+#serv_mitra .mitra-mobile img{
+  display: none;
+}
+#work_h .work_h1li{
+  height: 830px;
+}
+#work_h .work_h1li .title {
+  padding-top: 50%;
+}
+
+/* jasa dan layanan */
+#about_ho .about_h_1l p{
+  padding-right: 5rem;
+}
 /*********************common_end****************/
 
 /*********************footer****************/
@@ -590,12 +609,87 @@ margin-bottom:8px;
 
 @media (max-width: 450px) {
   html{
-      font-size: 55%;
+      font-size: 70%;
   }
+  p {
+    font-size: 110%;
+  }
+  ul {
+    font-size: 100%;
+  }
+/* Navbar */
+#header .nav-left {
+  font-size: 3px;
+}
+/* halaman beranda */
 #center_h .center_h1 .title-home{
   font-size: 30px;
   text-align: center;
   padding-top: 35%;
+}
+#about_h .about_h1l1 img {
+  width: 40%;
+  margin-left: 6rem;
+}
+#about_h .about_h1l2{
+  display: inline-block;
+  padding-top: 2rem;
+  width: 70%;
+  padding-left: 6rem;
+}
+#about_h .about_h1r {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#serv_h .serv_h2i p{
+  text-align: center;
+} 
+#cont_h .contact-us{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#cont_h .cont_h1r p{
+  text-align: center;
+
+}
+#serv_mitra .serv_h2i {
+  display: none;
+}
+#serv_mitra .mitra-mobile img{
+  display: inline;
+  width: 400px;
+}
+#sub .sub_1l p {
+  text-align: center;
+}
+#work_h .work_h1li{
+  height: 200px;
+  padding-left: 0%;
+}
+#work_h .work_h1li .title {
+  padding-top: 0%;
+}
+#work_h .hubungi-kami {
+  padding-left: 0;
+  padding-right: 0;
+} 
+#work_h .con-visi-misi {
+  padding-left: 3rem;
+  padding-right: 3rem;
+} 
+/* halaman jasa dan layanan */
+#about_ho .about_h_1l {
+  padding-left: 3rem;
+  /* padding-right: 3rem; */
+}
+#about_ho .about_h_1l p{
+  padding-right: 3rem;
+}
+#about_ho .about_h_1li1i h1{
+  padding-top: 1rem;
+}
+#about_ho .kerjasama-mitra span{
+  /* font-size: 50px; */
 }
 }
 @media (min-width:576px) and (max-width:767px) {
