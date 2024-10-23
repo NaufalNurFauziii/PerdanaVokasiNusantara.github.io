@@ -228,6 +228,10 @@ display:block!important;
 .search_btn{
 border-right:1px solid #0d6ee9;
  }
+
+#center_h .center_h1l .title-home {
+  font-size: 60px;
+}
 /*********************header_end****************/
 
 /*********************common****************/
@@ -257,7 +261,10 @@ background:#106eea!important;
 border:1px solid #106eea!important;
 color:#fff!important;
  }
-
+#cont_h .contact-us {
+  padding-left: 15%;
+  padding-top: 3%;
+}
  /* footer social icons */
 ul.social-network {
 list-style: none;
@@ -578,11 +585,35 @@ margin-top:10px;
 margin-top:8px;
 margin-bottom:8px; 
  }
+
  }
+
+@media (max-width: 450px) {
+  html{
+      font-size: 55%;
+  }
+#center_h .center_h1 .title-home{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35%;
+}
+}
 @media (min-width:576px) and (max-width:767px) {
 
  }
 @media (min-width:768px) and (max-width:991px) {
+#top h6 {
+  display: none;
+  padding-left: 200%;
+    /* padding-right: 35rem; */
+  }
+#top .top_1l img {
+  width: 75px;
+  }
+#top .top_1rill{
+  display: none;
+  
+}
 .navbar-expand-md {
 flex-wrap:wrap!important;
 }
@@ -650,9 +681,27 @@ font-size:12px;
 .consult_1l img{
 min-height:570px; 
  }
+#center_h .center_h1l .title-home {
+  margin-top: 8rem;
+  font-size: 40px;
+}
+/* halaman beranda */
+#about_h .about_h1l1{
+  width: 60%;
+  padding-top: 10rem;
+}
+#about_h .about_h1l2{
+  display: inline;
+  padding-top: 13rem;
+}
+#cont_h .contact-us {
+  padding-left: 0%;
+}
  }
-@media (min-width:871px) and (max-width:991px) {
-#header .nav-link {
+/* @media (min-width:871px) and (max-width:991px) {
+
+
+  #header .nav-link {
 padding: 15px 12px;
 }
  }
@@ -666,8 +715,59 @@ padding: 15px 12px;
 .consult_1l img{
 min-height:570px; 
  }
- }
-@media (min-width:1201px) and (max-width:1360px) {
+ } */
+@media (min-width: 992px) and (max-width:1399px) {
+#header .nav-link {
+  padding: 15px 12px;
+}
+.navbar-expand-md {
+  flex-wrap:wrap!important;
+}
+#header .nav-link {
+  padding: 15px 12px;
+  }
+/* .consult_1l img{
+  min-height:570px;  
+} */
+#top h6 {
+  display: none;
+  padding-left: 200%;
+  /* padding-right: 35rem; */
+}
+#top .top_1l img {
+  width: 75px;
+}
 
- }
+#top .top_1rill{
+  display: none;
+
+}
+.kontak{
+  padding-left: 0;
+  text-align: justify;
+}
+/* Halaman beranda */
+#about_h .about_h1l1 img{
+  width: 80%;
+}
+
+#cont_h .contact-us {
+  /* padding-left: 3%; */
+  padding-top: 0;
+}
+#cont_h .contact-us h1{
+  font-size: 35px;
+}
+
+/* halaman about */
+#about_h .about_h1r h1{
+  font-size: 30px;
+  text-align: justify;
+
+}
+}
+
+
+
+
 
