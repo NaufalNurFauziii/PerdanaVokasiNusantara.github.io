@@ -42,6 +42,26 @@ background-image: linear-gradient(90deg, #34447e 10%, #78aee9 100%);
 color:#fff!important;
  }
 
+#mybutton1id_plts {
+  width: 300px;
+  height: 70px;
+  border: 0px;
+}
+#mybutton1id_pltb {
+  width: 300px;
+  height: 70px;
+  border: 0px;
+}
+#mybutton1id_pltmh {
+  width: 300px;
+  height: 70px;
+  border: 0px;
+}
+#mybutton1id_pltbg {
+  width: 300px;
+  height: 70px;
+  border: 0px;
+}
 
 .grid figure {
 position: relative;
@@ -412,7 +432,21 @@ display:none;
 .team_h1im1:hover .team_h1im1i1{
 display:block; 
  }
-/* mitra */
+ #serv_h .serv_h3 {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-right: 0%;
+} 
+#serv_h .serv-label-no{
+  padding: 0%;
+}
+#serv_h .serv-label-bidang{
+  padding: 0%;
+}
+#serv_h .serv-label-jenjang{
+  padding: 0%;
+}
+ /* mitra */
 #serv_mitra .serv_h2i img {
   max-height: 130px; 
   max-width: 180px;
@@ -422,6 +456,7 @@ display:block;
 }
 #work_h .work_h1li{
   height: 830px;
+  padding-left: 3rem;
 }
 #work_h .work_h1li .title {
   padding-top: 50%;
@@ -430,6 +465,12 @@ display:block;
 /* jasa dan layanan */
 #about_ho .about_h_1l p{
   padding-right: 5rem;
+}
+/* footer */
+#footer .footer_1i p{
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 70px;
 }
 /*********************common_end****************/
 
@@ -469,7 +510,7 @@ border-top:1px solid #0a55c4;
 margin-top:15px;
  }
 #header .nav-link{
-font-size:26px!important;
+font-size:26px;
 border-bottom:1px solid #0a55c4;
 padding-top:10px;
 padding-bottom:10px;
@@ -624,6 +665,9 @@ margin-bottom:8px;
 #header .nav-left {
   font-size: 3px;
 }
+#header .nav-link {
+  font-size: 18px;
+}
 /* halaman beranda */
 #center_h .center_h1 .title-home{
   font-size: 30px;
@@ -646,7 +690,8 @@ margin-bottom:8px;
 }
 #serv_h .serv_h2i p{
   text-align: center;
-} 
+}
+
 #cont_h .contact-us{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -666,7 +711,7 @@ margin-bottom:8px;
   text-align: center;
 }
 #work_h .work_h1li{
-  height: 200px;
+  height: 250px;
   padding-left: 0%;
 }
 #work_h .work_h1li .title {
@@ -693,6 +738,49 @@ margin-bottom:8px;
 }
 #about_ho .kerjasama-mitra span{
   /* font-size: 50px; */
+}
+/* halaman jasa dan layanan */
+#serv_h .serv-label p {
+  font-size: 10px;
+}
+#serv_h .serv_h3 {
+  padding: 0 2rem ;
+}
+#serv_h .serv-label-jenjang {
+  display: none;
+}
+#serv_h .serv-label-no {
+  display: none;
+}
+#mybutton1id_plts {
+  width: 180px;
+  height: 30px;
+  border: 0px;
+  padding-top: 8px;
+}
+#mybutton1id_pltb {
+  width: 180px;
+  height: 30px;
+  border: 0px;
+  padding-top: 8px;
+}
+#mybutton1id_pltmh {
+  width: 180px;
+  height: 30px;
+  border: 0px;
+  padding-top: 8px;
+}
+#mybutton1id_pltbg {
+  width: 180px;
+  height: 30px;
+  border: 0px;
+  padding-top: 8px;
+}
+/* footer */
+#footer .footer_1i p{
+  font-size: 13px;
+  text-align: justify;
+  padding-right: 0%;
 }
 }
 @media (min-width:576px) and (max-width:767px) {
@@ -938,7 +1026,10 @@ min-height:570px;
 #about_h .about_h1r h1{
   font-size: 30px;
   text-align: justify;
-
+}
+/* halaman jasa dan layanan */
+#serv_h .serv-label p {
+  font-size: 13px;
 }
 }
 
