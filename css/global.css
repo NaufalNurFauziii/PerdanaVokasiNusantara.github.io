@@ -537,6 +537,9 @@ margin-bottom:5px;
 .work_h1ril  p{
 text-align:left; 
  }
+.work_h1li {
+  padding-top: 5rem;
+}
 .price_1i{
 margin-top:8px;
 margin-bottom:8px; 
@@ -693,7 +696,80 @@ margin-bottom:8px;
 }
 }
 @media (min-width:576px) and (max-width:767px) {
-
+/* halaman beranda */
+#center_h .center_h1l .title-home {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+#about_h .about_h1 .about_h1l1 img{
+  width: 30%;
+  margin-left: 28%;
+}
+#about_h .about_h1l2{
+  display: inline;
+  width: 60%;
+  padding-top: 3rem;
+  padding-left: 25%;
+}
+#about_h .about_h1r h1 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+#about_h .about_h1r p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#serv_h .serv_h2 p {
+  text-align: center;
+}
+#cont_h .contact-us {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#cont_h .contact-us p{
+  text-align: center;
+}
+#serv_mitra .serv_h2 {
+  display: none;
+}
+#serv_mitra .mitra-mobile img{
+  display: inline;
+  width: 700px;
+  padding-left: 2rem;
+  /* padding-right: 1rem; */
+}
+#sub .sub_1l p{
+  text-align: center;
+  padding: 0 3rem 0 3rem;
+}
+/* halaman about us */
+#work_h .work_h1li{
+  height: 260px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+#work_h .work_h1li .title{
+  padding-top: 0;
+}
+#work_h .hubungi-kami {
+  padding-left: 0;
+  padding-right: 0;
+}
+#work_h .work_h1r {
+  padding: 0 3rem 0 3rem;
+}
+/* halaman kontak */
+#contact .contact_1ri {
+  margin-top: 0;
+}
+/* halaman jasa dan layanan */
+#about_ho .about_h_1l {
+  padding: 0 0 0 3rem;
+}
+#about_ho .about_h_1l h1 {
+  padding-right: 3rem;
+}
  }
 @media (min-width:768px) and (max-width:991px) {
 #top h6 {
@@ -790,6 +866,11 @@ min-height:570px;
 }
 #cont_h .contact-us {
   padding-left: 0%;
+}
+
+/* halaman kontak */
+#contact .contact_1l .kontak {
+  padding-left: 0;
 }
  }
 /* @media (min-width:871px) and (max-width:991px) {
